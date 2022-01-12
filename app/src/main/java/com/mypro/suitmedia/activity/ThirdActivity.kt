@@ -47,6 +47,7 @@ class ThirdActivity : AppCompatActivity() {
                 intent.putExtra(EXTRA_USER_NAME, "$firstName $lastName")
                 setResult(RESULT_OK, intent)
                 finish()
+                //
             }
 
             rvUser.addOnScrollListener(object : RecyclerView.OnScrollListener() {
